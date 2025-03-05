@@ -1,0 +1,1602 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <attributes>{labelCacheCleanUpExecuted=true}</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Create a coupon code and update the monitor record.</description>
+        <flow_priority/>
+        <ih_action>false</ih_action>
+        <internal_name>create_coupon_code</internal_name>
+        <label_cache>[{"name":"{{action.monitorrecord}}","label":"action➛monitorRecord","type":"action","ref":"","reference_display":"Monitor","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[0dbbbd47-4e21-4506-9c52-2bfef597f920].couponcode}}","label":"step➛Script step➛couponCode","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"b2a090df-5f33-4b9e-a59e-e892cc1e574d"}}]</label_cache>
+        <master_snapshot>119d055683402210f2d4a6d0deaad313</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Create Coupon Code</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-05 02:02:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0f9a091283402210f2d4a6d0deaad3db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create Coupon Code</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Social Media Management" source="x_snc_social_media">9a6c42fea9e323007f445d9995b82f9a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Social Media Management">9a6c42fea9e323007f445d9995b82f9a</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_0f9a091283402210f2d4a6d0deaad3db</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-05 02:19:51</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=0f9a091283402210f2d4a6d0deaad3db"/>
+    <sys_variable_value action="delete_multiple" query="document_key=0f9a091283402210f2d4a6d0deaad3db"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>0f9a091283402210f2d4a6d0deaad3db</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-05 02:04:54</sys_created_on>
+        <sys_id>013b859283402210f2d4a6d0deaad30f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-05 02:04:54</sys_updated_on>
+        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}}}</value>
+        <variable display_value="Action Status">853b459283402210f2d4a6d0deaad3fe</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>0f9a091283402210f2d4a6d0deaad3db</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-05 02:04:54</sys_created_on>
+        <sys_id>4d3b859283402210f2d4a6d0deaad30e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-05 02:04:54</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">c93b859283402210f2d4a6d0deaad303</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>0f9a091283402210f2d4a6d0deaad3db</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-05 02:14:07</sys_created_on>
+        <sys_id>905d8d1683402210f2d4a6d0deaad34b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-05 02:14:07</sys_updated_on>
+        <value>Our response has been updated with a coupon code.</value>
+        <variable display_value="outputValue">ff4d8d1683402210f2d4a6d0deaad306</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_output_0f9a091283402210f2d4a6d0deaad3db^id=0f9a091283402210f2d4a6d0deaad3db"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=0f9a091283402210f2d4a6d0deaad3db^sys_idNOT IN3c3b459283402210f2d4a6d0deaad3e1,de3c49d283402210f2d4a6d0deaad33e"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Create Coupon Code">0f9a091283402210f2d4a6d0deaad3db</action>
+        <cid>0dbbbd47-4e21-4506-9c52-2bfef597f920</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-05 02:04:53</sys_created_on>
+        <sys_id>3c3b459283402210f2d4a6d0deaad3e1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Social Media Management">9a6c42fea9e323007f445d9995b82f9a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-05 02:04:53</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3c3b459283402210f2d4a6d0deaad3e1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>3c3b459283402210f2d4a6d0deaad3e1</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-05 02:04:53</sys_created_on>
+        <sys_id>453b459283402210f2d4a6d0deaad3fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-05 02:04:53</sys_updated_on>
+        <value>(function execute(inputs, outputs) {&#13;
+&#13;
+    var randomNumber = Math.floor(Math.random() * 1000000);&#13;
+    outputs.couponcode = randomNumber.toFixed(); &#13;
+&#13;
+})(inputs, outputs);&#13;
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>3c3b459283402210f2d4a6d0deaad3e1</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-05 02:04:53</sys_created_on>
+        <sys_id>c93b459283402210f2d4a6d0deaad3fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-05 02:04:53</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_3c3b459283402210f2d4a6d0deaad3e1^id=3c3b459283402210f2d4a6d0deaad3e1"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=3c3b459283402210f2d4a6d0deaad3e1"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=3c3b459283402210f2d4a6d0deaad3e1"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=3c3b459283402210f2d4a6d0deaad3e1"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=3c3b459283402210f2d4a6d0deaad3e1^sys_idNOT IN6b9c011683402210f2d4a6d0deaad3f2"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=b2a090df-5f33-4b9e-a59e-e892cc1e574d</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>couponcode</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>couponCode</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">3c3b459283402210f2d4a6d0deaad3e1</model>
+        <model_id>3c3b459283402210f2d4a6d0deaad3e1</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_3c3b459283402210f2d4a6d0deaad3e1</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-05 02:11:04</sys_created_on>
+        <sys_id>6b9c011683402210f2d4a6d0deaad3f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Social Media Management">9a6c42fea9e323007f445d9995b82f9a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-05 02:11:04</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=3c3b459283402210f2d4a6d0deaad3e1"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_3c3b459283402210f2d4a6d0deaad3e1^sys_idNOT INe39c011683402210f2d4a6d0deaad3f6"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>couponcode</element>
+        <help/>
+        <hint/>
+        <label>couponCode</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_3c3b459283402210f2d4a6d0deaad3e1</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-05 02:11:04</sys_created_on>
+        <sys_id>e39c011683402210f2d4a6d0deaad3f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>couponCode</sys_name>
+        <sys_package display_value="Social Media Management" source="x_snc_social_media">9a6c42fea9e323007f445d9995b82f9a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Social Media Management">9a6c42fea9e323007f445d9995b82f9a</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_3c3b459283402210f2d4a6d0deaad3e1_couponcode_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-05 02:11:04</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Create Coupon Code">0f9a091283402210f2d4a6d0deaad3db</action>
+        <cid>1ffb504b-cd6e-4a7c-9eca-baeed36b6383</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Update Record step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Update Record">b51f683667003200553fafb49585ef3f</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-05 02:09:21</sys_created_on>
+        <sys_id>de3c49d283402210f2d4a6d0deaad33e</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Social Media Management">9a6c42fea9e323007f445d9995b82f9a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-05 02:15:06</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=de3c49d283402210f2d4a6d0deaad33e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>de3c49d283402210f2d4a6d0deaad33e</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-05 02:09:21</sys_created_on>
+        <sys_id>aa3c49d283402210f2d4a6d0deaad347</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-05 02:15:06</sys_updated_on>
+        <value>x_snc_social_media_monitor</value>
+        <variable display_value="Table">3930d57267003200553fafb49585efc5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>de3c49d283402210f2d4a6d0deaad33e</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-05 02:09:21</sys_created_on>
+        <sys_id>e63c49d283402210f2d4a6d0deaad347</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-05 02:11:04</sys_updated_on>
+        <value/>
+        <variable display_value="Field Values">fcbf6c3667003200553fafb49585ef2e</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=de3c49d283402210f2d4a6d0deaad33e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>de3c49d283402210f2d4a6d0deaad33e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-05 02:09:21</sys_created_on>
+        <sys_id>663c49d283402210f2d4a6d0deaad347</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-05 02:15:06</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_b51f683667003200553fafb49585ef3f</table>
+        <value>{{action.monitorrecord}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>de3c49d283402210f2d4a6d0deaad33e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-05 02:09:21</sys_created_on>
+        <sys_id>ee3c49d283402210f2d4a6d0deaad346</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-05 02:09:21</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_b51f683667003200553fafb49585ef3f</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>update_record_field_values</field>
+        <id>de3c49d283402210f2d4a6d0deaad33e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-05 02:09:21</sys_created_on>
+        <sys_id>a23c49d283402210f2d4a6d0deaad347</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-05 02:15:06</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_b51f683667003200553fafb49585ef3f</table>
+        <value>response=Thank you for sharing your experience with the world on social media. Here is your coupon code for your next purchase: {{step[0dbbbd47-4e21-4506-9c52-2bfef597f920].couponcode}}</value>
+    </sys_element_mapping>
+    <sys_translated_text action="delete_multiple" query="documentkey=de3c49d283402210f2d4a6d0deaad33e"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=de3c49d283402210f2d4a6d0deaad33e"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=de3c49d283402210f2d4a6d0deaad33e"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=de3c49d283402210f2d4a6d0deaad33e"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_de3c49d283402210f2d4a6d0deaad33e"/>
+    <sys_hub_action_input action="delete_multiple" query="model=0f9a091283402210f2d4a6d0deaad3db^sys_idNOT IN343b8d1283402210f2d4a6d0deaad3cc"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=e86d9a69-4615-4344-964c-4efb3cbae288</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>x_snc_social_media_monitor</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>monitorrecord</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>monitorRecord</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Create Coupon Code">0f9a091283402210f2d4a6d0deaad3db</model>
+        <model_id>0f9a091283402210f2d4a6d0deaad3db</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_0f9a091283402210f2d4a6d0deaad3db</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_snc_social_media_monitor">x_snc_social_media_monitor</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-05 02:04:52</sys_created_on>
+        <sys_id>343b8d1283402210f2d4a6d0deaad3cc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Social Media Management">9a6c42fea9e323007f445d9995b82f9a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-05 02:04:53</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=343b8d1283402210f2d4a6d0deaad3cc"/>
+    <sys_hub_action_output action="delete_multiple" query="model=0f9a091283402210f2d4a6d0deaad3db^sys_idNOT IN853b459283402210f2d4a6d0deaad3fe,c93b859283402210f2d4a6d0deaad303,ff4d8d1683402210f2d4a6d0deaad306"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=995185e6-6215-49ee-aea8-69d46cec03d7</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Create Coupon Code">0f9a091283402210f2d4a6d0deaad3db</model>
+        <model_id>0f9a091283402210f2d4a6d0deaad3db</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_0f9a091283402210f2d4a6d0deaad3db</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-05 02:04:53</sys_created_on>
+        <sys_id>853b459283402210f2d4a6d0deaad3fe</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Social Media Management">9a6c42fea9e323007f445d9995b82f9a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-05 02:09:22</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=853b459283402210f2d4a6d0deaad3fe"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=853b459283402210f2d4a6d0deaad3fe"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=f542fac8-973c-449b-9c36-fd52275c2505,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Create Coupon Code">0f9a091283402210f2d4a6d0deaad3db</model>
+        <model_id>0f9a091283402210f2d4a6d0deaad3db</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_0f9a091283402210f2d4a6d0deaad3db</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-05 02:04:53</sys_created_on>
+        <sys_id>c93b859283402210f2d4a6d0deaad303</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Social Media Management">9a6c42fea9e323007f445d9995b82f9a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-05 02:15:16</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=c93b859283402210f2d4a6d0deaad303"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=c93b859283402210f2d4a6d0deaad303"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=2ee0c67c-3224-4375-86c6-d077e12e3bfb</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>outputvalue</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>outputValue</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Create Coupon Code">0f9a091283402210f2d4a6d0deaad3db</model>
+        <model_id>0f9a091283402210f2d4a6d0deaad3db</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_0f9a091283402210f2d4a6d0deaad3db</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-05 02:14:06</sys_created_on>
+        <sys_id>ff4d8d1683402210f2d4a6d0deaad306</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Social Media Management">9a6c42fea9e323007f445d9995b82f9a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-05 02:14:06</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ff4d8d1683402210f2d4a6d0deaad306"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ff4d8d1683402210f2d4a6d0deaad306"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=0f9a091283402210f2d4a6d0deaad3db"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=0f9a091283402210f2d4a6d0deaad3db^sys_idNOT IN453b859283402210f2d4a6d0deaad310"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Create Coupon Code">0f9a091283402210f2d4a6d0deaad3db</action_type_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-05 02:04:54</sys_created_on>
+        <sys_id>453b859283402210f2d4a6d0deaad310</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-05 02:04:54</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=453b859283402210f2d4a6d0deaad310"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_0f9a091283402210f2d4a6d0deaad3db^sys_idNOT IN3c3b459283402210f2d4a6d0deaad3d1"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>monitorrecord</element>
+        <help/>
+        <hint/>
+        <label>monitorRecord</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_0f9a091283402210f2d4a6d0deaad3db</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-05 02:04:53</sys_created_on>
+        <sys_id>3c3b459283402210f2d4a6d0deaad3d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>monitorRecord</sys_name>
+        <sys_package display_value="Social Media Management" source="x_snc_social_media">9a6c42fea9e323007f445d9995b82f9a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Social Media Management">9a6c42fea9e323007f445d9995b82f9a</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_0f9a091283402210f2d4a6d0deaad3db_monitorrecord_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-05 02:04:53</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_0f9a091283402210f2d4a6d0deaad3db"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_0f9a091283402210f2d4a6d0deaad3db^sys_idNOT IN0d3b859283402210f2d4a6d0deaad302,7f4d8d1683402210f2d4a6d0deaad30a,cd3b859283402210f2d4a6d0deaad309"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_0f9a091283402210f2d4a6d0deaad3db</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-05 02:04:53</sys_created_on>
+        <sys_id>0d3b859283402210f2d4a6d0deaad302</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Action Status</sys_name>
+        <sys_package display_value="Social Media Management" source="x_snc_social_media">9a6c42fea9e323007f445d9995b82f9a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Social Media Management">9a6c42fea9e323007f445d9995b82f9a</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_0f9a091283402210f2d4a6d0deaad3db___action_status___en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-05 02:04:53</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>outputvalue</element>
+        <help/>
+        <hint/>
+        <label>outputValue</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_0f9a091283402210f2d4a6d0deaad3db</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-05 02:14:06</sys_created_on>
+        <sys_id>7f4d8d1683402210f2d4a6d0deaad30a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>outputValue</sys_name>
+        <sys_package display_value="Social Media Management" source="x_snc_social_media">9a6c42fea9e323007f445d9995b82f9a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Social Media Management">9a6c42fea9e323007f445d9995b82f9a</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_0f9a091283402210f2d4a6d0deaad3db_outputvalue_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-05 02:14:06</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_0f9a091283402210f2d4a6d0deaad3db</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-05 02:04:54</sys_created_on>
+        <sys_id>cd3b859283402210f2d4a6d0deaad309</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Don't Treat as Error</sys_name>
+        <sys_package display_value="Social Media Management" source="x_snc_social_media">9a6c42fea9e323007f445d9995b82f9a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Social Media Management">9a6c42fea9e323007f445d9995b82f9a</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_0f9a091283402210f2d4a6d0deaad3db___dont_treat_as_error___en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-05 02:04:54</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_0f9a091283402210f2d4a6d0deaad3db"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=0f9a091283402210f2d4a6d0deaad3db"/>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <annotation/>
+        <attributes>{labelCacheCleanUpExecuted=true}</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Create a coupon code and update the monitor record.</description>
+        <flow_priority/>
+        <internal_name>create_coupon_code</internal_name>
+        <label_cache>[{"name":"{{action.monitorrecord}}","label":"action➛monitorRecord","type":"action","ref":"","reference_display":"Monitor","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[0dbbbd47-4e21-4506-9c52-2bfef597f920].couponcode}}","label":"step➛Script step➛couponCode","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"b2a090df-5f33-4b9e-a59e-e892cc1e574d"}}]</label_cache>
+        <master>true</master>
+        <name>Create Coupon Code</name>
+        <natlang/>
+        <outputs/>
+        <parent_action display_value="Create Coupon Code">0f9a091283402210f2d4a6d0deaad3db</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-05 02:15:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>119d055683402210f2d4a6d0deaad313</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Social Media Management">9a6c42fea9e323007f445d9995b82f9a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-05 02:15:17</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=119d055683402210f2d4a6d0deaad313"/>
+    <sys_variable_value action="delete_multiple" query="document_key=119d055683402210f2d4a6d0deaad313"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>119d055683402210f2d4a6d0deaad313</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-05 02:15:18</sys_created_on>
+        <sys_id>2d9d055683402210f2d4a6d0deaad389</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-05 02:15:18</sys_updated_on>
+        <value>Our response has been updated with a coupon code.</value>
+        <variable display_value="outputValue">9d9d055683402210f2d4a6d0deaad35d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>119d055683402210f2d4a6d0deaad313</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-05 02:15:18</sys_created_on>
+        <sys_id>699d055683402210f2d4a6d0deaad389</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-05 02:15:18</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">e59d055683402210f2d4a6d0deaad37f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>119d055683402210f2d4a6d0deaad313</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-05 02:15:18</sys_created_on>
+        <sys_id>ed9d055683402210f2d4a6d0deaad389</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-05 02:15:18</sys_updated_on>
+        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}}}</value>
+        <variable display_value="Action Status">659d055683402210f2d4a6d0deaad37b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_output_119d055683402210f2d4a6d0deaad313^id=119d055683402210f2d4a6d0deaad313"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=119d055683402210f2d4a6d0deaad313^sys_idNOT IN199d055683402210f2d4a6d0deaad339,599d055683402210f2d4a6d0deaad355"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Create Coupon Code">119d055683402210f2d4a6d0deaad313</action>
+        <cid>0dbbbd47-4e21-4506-9c52-2bfef597f920</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-05 02:15:17</sys_created_on>
+        <sys_id>199d055683402210f2d4a6d0deaad339</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Social Media Management">9a6c42fea9e323007f445d9995b82f9a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-05 02:15:17</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=199d055683402210f2d4a6d0deaad339"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>199d055683402210f2d4a6d0deaad339</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-05 02:15:17</sys_created_on>
+        <sys_id>199d055683402210f2d4a6d0deaad353</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-05 02:15:17</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>199d055683402210f2d4a6d0deaad339</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-05 02:15:17</sys_created_on>
+        <sys_id>d99d055683402210f2d4a6d0deaad353</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-05 02:15:17</sys_updated_on>
+        <value>(function execute(inputs, outputs) {&#13;
+&#13;
+    var randomNumber = Math.floor(Math.random() * 1000000);&#13;
+    outputs.couponcode = randomNumber.toFixed(); &#13;
+&#13;
+})(inputs, outputs);&#13;
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_199d055683402210f2d4a6d0deaad339^id=199d055683402210f2d4a6d0deaad339"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=199d055683402210f2d4a6d0deaad339"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=199d055683402210f2d4a6d0deaad339"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=199d055683402210f2d4a6d0deaad339"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=199d055683402210f2d4a6d0deaad339^sys_idNOT IN159d055683402210f2d4a6d0deaad34a"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=b2a090df-5f33-4b9e-a59e-e892cc1e574d</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>couponcode</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>couponCode</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">199d055683402210f2d4a6d0deaad339</model>
+        <model_id>199d055683402210f2d4a6d0deaad339</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_199d055683402210f2d4a6d0deaad339</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-05 02:15:17</sys_created_on>
+        <sys_id>159d055683402210f2d4a6d0deaad34a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Social Media Management">9a6c42fea9e323007f445d9995b82f9a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-05 02:15:17</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=199d055683402210f2d4a6d0deaad339"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_199d055683402210f2d4a6d0deaad339^sys_idNOT IN159d055683402210f2d4a6d0deaad34d"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>couponcode</element>
+        <help/>
+        <hint/>
+        <label>couponCode</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_199d055683402210f2d4a6d0deaad339</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-05 02:15:17</sys_created_on>
+        <sys_id>159d055683402210f2d4a6d0deaad34d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>couponCode</sys_name>
+        <sys_package display_value="Social Media Management" source="x_snc_social_media">9a6c42fea9e323007f445d9995b82f9a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Social Media Management">9a6c42fea9e323007f445d9995b82f9a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-05 02:15:17</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Create Coupon Code">119d055683402210f2d4a6d0deaad313</action>
+        <cid>1ffb504b-cd6e-4a7c-9eca-baeed36b6383</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Update Record step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Update Record">b51f683667003200553fafb49585ef3f</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-05 02:15:17</sys_created_on>
+        <sys_id>599d055683402210f2d4a6d0deaad355</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Social Media Management">9a6c42fea9e323007f445d9995b82f9a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-05 02:15:18</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=599d055683402210f2d4a6d0deaad355"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>599d055683402210f2d4a6d0deaad355</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-05 02:15:18</sys_created_on>
+        <sys_id>1d9d055683402210f2d4a6d0deaad35c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-05 02:15:18</sys_updated_on>
+        <value>x_snc_social_media_monitor</value>
+        <variable display_value="Table">3930d57267003200553fafb49585efc5</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=599d055683402210f2d4a6d0deaad355"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>599d055683402210f2d4a6d0deaad355</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-05 02:15:18</sys_created_on>
+        <sys_id>999d055683402210f2d4a6d0deaad35c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-05 02:15:18</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_b51f683667003200553fafb49585ef3f</table>
+        <value>{{action.monitorrecord}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>599d055683402210f2d4a6d0deaad355</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-05 02:15:18</sys_created_on>
+        <sys_id>159d055683402210f2d4a6d0deaad35c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-05 02:15:18</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_b51f683667003200553fafb49585ef3f</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>update_record_field_values</field>
+        <id>599d055683402210f2d4a6d0deaad355</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-05 02:15:18</sys_created_on>
+        <sys_id>d59d055683402210f2d4a6d0deaad35c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-05 02:15:18</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_b51f683667003200553fafb49585ef3f</table>
+        <value>response=Thank you for sharing your experience with the world on social media. Here is your coupon code for your next purchase: {{step[0dbbbd47-4e21-4506-9c52-2bfef597f920].couponcode}}</value>
+    </sys_element_mapping>
+    <sys_translated_text action="delete_multiple" query="documentkey=599d055683402210f2d4a6d0deaad355"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=599d055683402210f2d4a6d0deaad355"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=599d055683402210f2d4a6d0deaad355"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=599d055683402210f2d4a6d0deaad355"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_599d055683402210f2d4a6d0deaad355"/>
+    <sys_hub_action_input action="delete_multiple" query="model=119d055683402210f2d4a6d0deaad313^sys_idNOT IN559d055683402210f2d4a6d0deaad316"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=e86d9a69-4615-4344-964c-4efb3cbae288</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>x_snc_social_media_monitor</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>monitorrecord</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>monitorRecord</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Create Coupon Code">119d055683402210f2d4a6d0deaad313</model>
+        <model_id>119d055683402210f2d4a6d0deaad313</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_119d055683402210f2d4a6d0deaad313</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_snc_social_media_monitor">x_snc_social_media_monitor</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-05 02:15:17</sys_created_on>
+        <sys_id>559d055683402210f2d4a6d0deaad316</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Social Media Management">9a6c42fea9e323007f445d9995b82f9a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-05 02:15:17</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=559d055683402210f2d4a6d0deaad316"/>
+    <sys_hub_action_output action="delete_multiple" query="model=119d055683402210f2d4a6d0deaad313^sys_idNOT IN659d055683402210f2d4a6d0deaad37b,9d9d055683402210f2d4a6d0deaad35d,e59d055683402210f2d4a6d0deaad37f"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=995185e6-6215-49ee-aea8-69d46cec03d7</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Create Coupon Code">119d055683402210f2d4a6d0deaad313</model>
+        <model_id>119d055683402210f2d4a6d0deaad313</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_119d055683402210f2d4a6d0deaad313</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-05 02:15:18</sys_created_on>
+        <sys_id>659d055683402210f2d4a6d0deaad37b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Social Media Management">9a6c42fea9e323007f445d9995b82f9a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-05 02:15:18</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=659d055683402210f2d4a6d0deaad37b"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=659d055683402210f2d4a6d0deaad37b"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=2ee0c67c-3224-4375-86c6-d077e12e3bfb</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>outputvalue</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>outputValue</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Create Coupon Code">119d055683402210f2d4a6d0deaad313</model>
+        <model_id>119d055683402210f2d4a6d0deaad313</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_119d055683402210f2d4a6d0deaad313</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-05 02:15:18</sys_created_on>
+        <sys_id>9d9d055683402210f2d4a6d0deaad35d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Social Media Management">9a6c42fea9e323007f445d9995b82f9a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-05 02:15:18</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=9d9d055683402210f2d4a6d0deaad35d"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=9d9d055683402210f2d4a6d0deaad35d"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=f542fac8-973c-449b-9c36-fd52275c2505,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Create Coupon Code">119d055683402210f2d4a6d0deaad313</model>
+        <model_id>119d055683402210f2d4a6d0deaad313</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_119d055683402210f2d4a6d0deaad313</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-05 02:15:18</sys_created_on>
+        <sys_id>e59d055683402210f2d4a6d0deaad37f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Social Media Management">9a6c42fea9e323007f445d9995b82f9a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-05 02:15:18</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=e59d055683402210f2d4a6d0deaad37f"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e59d055683402210f2d4a6d0deaad37f"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=119d055683402210f2d4a6d0deaad313"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=119d055683402210f2d4a6d0deaad313^sys_idNOT INe59d055683402210f2d4a6d0deaad38b"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Create Coupon Code">119d055683402210f2d4a6d0deaad313</action_type_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-05 02:15:18</sys_created_on>
+        <sys_id>e59d055683402210f2d4a6d0deaad38b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-05 02:15:18</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=e59d055683402210f2d4a6d0deaad38b"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_119d055683402210f2d4a6d0deaad313^sys_idNOT IN5d9d055683402210f2d4a6d0deaad333"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>monitorrecord</element>
+        <help/>
+        <hint/>
+        <label>monitorRecord</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_119d055683402210f2d4a6d0deaad313</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-05 02:15:17</sys_created_on>
+        <sys_id>5d9d055683402210f2d4a6d0deaad333</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>monitorRecord</sys_name>
+        <sys_package display_value="Social Media Management" source="x_snc_social_media">9a6c42fea9e323007f445d9995b82f9a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Social Media Management">9a6c42fea9e323007f445d9995b82f9a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-05 02:15:17</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_119d055683402210f2d4a6d0deaad313"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_119d055683402210f2d4a6d0deaad313^sys_idNOT IN299d055683402210f2d4a6d0deaad37e,a59d055683402210f2d4a6d0deaad37a,e59d055683402210f2d4a6d0deaad384"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_119d055683402210f2d4a6d0deaad313</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-05 02:15:18</sys_created_on>
+        <sys_id>299d055683402210f2d4a6d0deaad37e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Action Status</sys_name>
+        <sys_package display_value="Social Media Management" source="x_snc_social_media">9a6c42fea9e323007f445d9995b82f9a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Social Media Management">9a6c42fea9e323007f445d9995b82f9a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-05 02:15:18</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>outputvalue</element>
+        <help/>
+        <hint/>
+        <label>outputValue</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_119d055683402210f2d4a6d0deaad313</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-05 02:15:18</sys_created_on>
+        <sys_id>a59d055683402210f2d4a6d0deaad37a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>outputValue</sys_name>
+        <sys_package display_value="Social Media Management" source="x_snc_social_media">9a6c42fea9e323007f445d9995b82f9a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Social Media Management">9a6c42fea9e323007f445d9995b82f9a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-05 02:15:18</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_119d055683402210f2d4a6d0deaad313</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-05 02:15:18</sys_created_on>
+        <sys_id>e59d055683402210f2d4a6d0deaad384</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Don't Treat as Error</sys_name>
+        <sys_package display_value="Social Media Management" source="x_snc_social_media">9a6c42fea9e323007f445d9995b82f9a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Social Media Management">9a6c42fea9e323007f445d9995b82f9a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-05 02:15:18</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_119d055683402210f2d4a6d0deaad313"/>
+    <sys_hub_action_type_definition action="UPDATE">
+        <sys_id>0f9a091283402210f2d4a6d0deaad3db</sys_id>
+        <latest_snapshot>119d055683402210f2d4a6d0deaad313</latest_snapshot>
+        <compiler_build>glide-xanadu-07-02-2024__patch6-01-29-2025_02-11-2025_1128.zip</compiler_build>
+    </sys_hub_action_type_definition>
+</record_update>
