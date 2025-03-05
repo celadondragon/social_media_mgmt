@@ -3,19 +3,19 @@
         <element attributes="edge_encryption_enabled=true" label="User's handle(s)" max_length="250" name="handles" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Type" max_length="40" name="type" type="string">
             <choice>
-                <element inactive_on_update="false" label="Positive" sequence="0" value="positive"/>
                 <element inactive_on_update="false" label="Negative" sequence="1" value="negative"/>
+                <element inactive_on_update="false" label="Positive" sequence="0" value="positive"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="source_other" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Source" max_length="40" name="source" type="string">
             <choice>
-                <element inactive_on_update="false" label="LinkedIn" sequence="2" value="linkedin"/>
                 <element inactive_on_update="false" label="Twitter" sequence="4" value="twitter"/>
-                <element inactive_on_update="false" label="Other" sequence="5" value="other"/>
                 <element inactive_on_update="false" label="Facebook" sequence="0" value="facebook"/>
-                <element inactive_on_update="false" label="Instagram" sequence="1" value="instagram"/>
                 <element inactive_on_update="false" label="Snapchat" sequence="3" value="snapchat"/>
+                <element inactive_on_update="false" label="LinkedIn" sequence="2" value="linkedin"/>
+                <element inactive_on_update="false" label="Instagram" sequence="1" value="instagram"/>
+                <element inactive_on_update="false" label="Other" sequence="5" value="other"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Assessment notes" max_length="1000" name="assessment_notes" type="string"/>
